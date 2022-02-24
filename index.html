@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="title">
+        <h1>Shopping Savings Calculator</h1>
+    </div>
+    <div id ="body-container">
+        <div id="left-container">
+            <div id="top-half">
+                <input id="subtotal" class="input-container" placeholder="Enter subtotal here" />
+                <input id="discount" class="input-container" placeholder="Enter discount percentage" />
+                <div id="submit-btn" onclick="handleSubmit()">submit</div>
+            </div>
+            <div id="bottom-half">
+                <div id="total-container">
+                    <div id="total-text">Total:</div>
+                    <div id="total-num"></div>
+                </div>
+                
+
+            </div>
+        </div>
+        <div id="right-container">
+            <div id="savings-container">
+              <div id="savings-text">Total Savings:</div>
+              <div id="savings-num"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
