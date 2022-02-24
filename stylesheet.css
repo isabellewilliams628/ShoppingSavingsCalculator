@@ -1,17 +1,73 @@
-#title{
+
+*{
+    font-family: 'Nunito';
+    color: #424949;
+}
+
+body {
+    margin: 0;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-color: #F7F7F7;
+}
+
+#login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 24px;
+    width: 300px;
+    height: 220px;
+    border-radius: 30px;
+    background-color: #E8DAEF;
+}
+
+#login-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 24px;
+    border-radius: 12px;
+    transition: ease-in-out;
+    box-shadow: 3px 3px 5px 1px lightgrey;
+}
+
+#title-container{
+    margin-top: 16px;
 }
 
 #body-container{
     display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+    height: 60%;
+    border-radius: 50px;
+    background-color: #E8DAEF;
+}
+
+#body-main-container{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 16px;
 }
 
 #left-container{
     
-    height: 600px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,24 +84,25 @@
     height: 40px;
     border-radius: 12px;
     font-size: 17px;
+    border: none;
 }
 
 #submit-btn{
     width: 100px;
     height: 40px;
-    background-color: burlywood;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 24px;
     border-radius: 12px;
-    border: 1px solid black;
     transition: ease-in-out;
+    box-shadow: 3px 3px 5px 1px lightgrey;
 }
 
 #submit-btn:hover {
     cursor: pointer;
-    background-color:cornflowerblue;
+    background-color: #E5E7E9;
     
 }
 
@@ -58,13 +115,13 @@
 
 #total-container{
     display: flex;
-    background-color: hotpink;
+    background-color: #FFFFFF;
     width: 200px;
     height: 40px;
     align-items: center;
     border-radius: 12px;
-    border: 1px solid black;
     justify-content: center;
+    box-shadow: 3px 3px 5px 1px lightgrey;
 }
 
 #total-text{
@@ -86,15 +143,14 @@
 
 #savings-container{
     display: flex;
-    background-color: blueviolet;
+    background-color: #FFFFFF;
     width: 400px;
     height: 300px;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
     border-radius: 45px;
-    border: 1px solid black;
     align-items: center;
     justify-content: center;
+    box-shadow: 3px 3px 5px 1px lightgrey;
 }
 
 #savings-text{

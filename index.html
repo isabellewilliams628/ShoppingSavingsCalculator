@@ -2,22 +2,30 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shopping Savings Calculator</title>
 </head>
 <body>
-    <div id="title">
-        <h1>Shopping Savings Calculator</h1>
-    </div>
+    <div id="main">
+        <div id = "login-container">
+            <input id="username" class="input-container" placeholder="Username"/>
+            <input id="password" class="input-container" placeholder="Password"/>
+            <div id="login-btn">Login</div>
+        </div>
     <div id ="body-container">
+        <div id="title-container">
+            <h1>Shopping Savings Calculator</h1>
+        </div>
+        <div id="body-main-container">
         <div id="left-container">
             <div id="top-half">
                 <input id="subtotal" class="input-container" placeholder="Enter subtotal here" />
                 <input id="discount" class="input-container" placeholder="Enter discount percentage" />
-                <div id="submit-btn" onclick="handleSubmit()">submit</div>
+                <div id="submit-btn" onclick="handleSubmit()">Submit</div>
             </div>
             <div id="bottom-half">
                 <div id="total-container">
@@ -34,6 +42,8 @@
               <div id="savings-num"></div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>
