@@ -18,6 +18,10 @@ body {
     background-color: #F7F7F7;
 }
 
+#sentEmail{
+    margin-top: 70px;
+}
+
 #login-container{
     display: flex;
     flex-direction: column;
@@ -29,17 +33,62 @@ body {
     background-color: #E8DAEF;
 }
 
+#username{
+    margin-top: 24px;
+
+}
+
+#btn-container{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
 #login-btn{
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 20px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 24px;
+    margin-top: 15px;
+    margin-right: 15px;
     border-radius: 12px;
     transition: ease-in-out;
     box-shadow: 3px 3px 5px 1px lightgrey;
+}
+
+#sign-up-btn{
+    width: 80px;
+    height: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 12px;
+    transition: ease-in-out;
+    box-shadow: 3px 3px 5px 1px lightgrey;
+}
+
+#forgot-pass-btn{
+
+    margin-top: 15px;
+}
+
+#login-btn:hover{
+    cursor: pointer;
+    background-color: #E5E7E9;
+}
+
+#sign-up-btn:hover{
+    cursor: pointer;
+    background-color: #E5E7E9;
+}
+
+#forgot-pass-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 #title-container{
@@ -52,6 +101,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    min-width: 792px;
+    min-height: 492px;
     width: 55%;
     height: 60%;
     border-radius: 50px;
@@ -87,6 +138,41 @@ body {
     border: none;
 }
 
+#reset-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border-radius: 12px;
+    transition: ease-in-out;
+    box-shadow: 3px 3px 5px 1px lightgrey;
+}
+
+#reset-btn:hover{
+    cursor: pointer;
+    background-color: #E5E7E9;
+}
+
+#sign-out-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border-radius: 12px;
+    transition: ease-in-out;
+    box-shadow: 3px 3px 5px 1px lightgrey;
+}
+
+#sign-out-btn:hover{
+    cursor: pointer;
+    background-color: #E5E7E9;
+}
 #submit-btn{
     width: 100px;
     height: 40px;
@@ -103,7 +189,6 @@ body {
 #submit-btn:hover {
     cursor: pointer;
     background-color: #E5E7E9;
-    
 }
 
 #bottom-half{
@@ -161,3 +246,4 @@ body {
 #savings-num{
     font-size: 32px;
 }
+

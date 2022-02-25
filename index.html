@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +11,13 @@
 <body>
     <div id="main">
         <div id = "login-container">
-            <input id="username" class="input-container" placeholder="Username"/>
+            <input id="email" class="input-container" placeholder="Email"/>
             <input id="password" class="input-container" placeholder="Password"/>
-            <div id="login-btn">Login</div>
+            <div id="btn-container">
+                <div id="login-btn" onclick="handleLogin()">Login</div>
+                <div id="sign-up-btn" onclick="handleSignUp()">Sign Up</div>
+            </div>
+            <div id="forgot-pass-btn" onclick="forgotSwitch()">Forgot Password</div>
         </div>
     <div id ="body-container">
         <div id="title-container">
@@ -45,5 +48,6 @@
     </div>
     </div>
     </div>
+      <script type="module" src="script.js"></script>
 </body>
 </html>
